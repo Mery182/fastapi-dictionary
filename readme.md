@@ -28,3 +28,15 @@ FastAPI Dictionary App — это RESTful API, созданный на осно�
    ```bash
    git clone https://github.com/username/fastapi-dictionary.git
    cd fastapi-dictionary
+
+## Создайте виртуальное окружение и активируйте его:
+
+1. Клонируйте репозиторий:
+  python -m venv venv
+  source venv/bin/activate  # Для macOS/Linux
+  venv\Scripts\activate     # Для Windows
+2. Установите зависимости:
+   Копировать код
+   pip install fastapi uvicorn
+3. Запустите сервер разработки:
+uvicorn app:app --reload
